@@ -26,4 +26,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run a one-line script
-        run: echo this is for 
+        run:  echo "Once upon a time in a faraway land"
+        		  echo "<Story Title Input> was written by <Author Name Input>"
+        		  echo "This whimsical tale takes you on a journey through a magical forest where every flower could talk."
+        		  echo "Will you explore its secrets?
