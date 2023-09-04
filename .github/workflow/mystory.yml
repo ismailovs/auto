@@ -1,0 +1,29 @@
+name: My First Automation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+          - 'storybook/**'
+  workflow_dispatch:
+    inputs:
+        story_title:
+          description: "A short title for the story"
+          required: true
+        author_name:
+          description: "The author's name"
+          required: true
+   
+
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: echo this is for 
