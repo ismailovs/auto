@@ -16,9 +16,6 @@ on:
           description: "The author's name"
           required: true
    
-
-
-
 jobs:
   generate-story:
     runs-on: ubuntu-latest
