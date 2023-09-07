@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Generate story
         run: |
-          echo "Once upon a time in a faraway land"
+          echo "test Once upon a time in a faraway land"
           echo "${{ github.event.inputs.story_title }} was written by ${{ github.event.inputs.author_name }}"
           echo "This whimsical tale takes you on a journey through a magical forest where every flower could talk."
           echo "Will you explore its secrets?"
