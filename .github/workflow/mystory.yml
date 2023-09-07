@@ -10,10 +10,10 @@ on:
   workflow_dispatch:
     inputs:
         story_title:
-          description: "A short title for the story"
+          description: "A short title for the story:"
           required: true
         author_name:
-          description: "The author's name"
+          description: "The author's name:"
           required: true
    
 jobs:
